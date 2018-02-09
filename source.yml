@@ -1,0 +1,9 @@
+name: exoter
+
+overrides:
+  - control/locomotion_control:
+    branch: exoter
+  - control/orogen/locomotion_control:
+    branch: exoter
+  - drivers/orogen/platform_driver:
+    branch: exoter
