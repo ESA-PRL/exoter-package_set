@@ -24,6 +24,31 @@ version_control:
     type: git
     url: https://github.com/esa-prl/drivers-orogen-platform_driver_pcan.git
     branch: master
+  - drivers/udp:
+    type: git
+    url: https://github.com/esa-prl/drivers-udp.git
+    branch: master
+  - simulation/orogen/vortex:
+    type: git
+    url: https://github.com/esa-prl/simulation-orogen-vortex.git
+    branch: master
+  - planning/motion_planning:
+    type: git
+    url: https://github.com/esa-prl/planning-motion_planning.git
+    branch: master
+  - planning/orogen/motion_planning:
+    type: git
+    url: https://github.com/esa-prl/planning-orogen-motion_planning.git
+    branch: master
+  - control/coupled_control:
+    type: git
+    url: hhttps://github.com/esa-prl/control-coupled_control.git
+    branch: master
+  - control/orogen/coupled_control:
+    type: git
+    url: hhttps://github.com/esa-prl/control-orogen-coupled_control.git
+    branch: master
+    
 
 overrides:
   - control/locomotion_control:
