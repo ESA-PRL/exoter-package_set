@@ -1,0 +1,2 @@
+cmake_package "planning/motion_planning"
+orogen_package "planning/orogen/motion_planning"
