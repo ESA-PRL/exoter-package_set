@@ -42,11 +42,11 @@ version_control:
     branch: master
   - control/coupled_control:
     type: git
-    url: hhttps://github.com/esa-prl/control-coupled_control.git
+    url: https://github.com/esa-prl/control-coupled_control.git
     branch: master
   - control/orogen/coupled_control:
     type: git
-    url: hhttps://github.com/esa-prl/control-orogen-coupled_control.git
+    url: https://github.com/esa-prl/control-orogen-coupled_control.git
     branch: master
     
 
