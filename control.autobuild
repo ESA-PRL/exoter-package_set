@@ -1,2 +1,3 @@
 cmake_package "control/coupled_control"
 orogen_package "control/orogen/coupled_control"
+orogen_package "control/orogen/ptu_control"
