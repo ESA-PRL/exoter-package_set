@@ -1,0 +1,5 @@
+python3.5:
+    debian, ubuntu: python3.5-dev
+
+python3-numpy:
+    debian, ubuntu: python3-numpy
