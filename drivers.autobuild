@@ -12,8 +12,7 @@ import_package 'drivers/pcan_pcie_mini' do |pkg|
             if (ENV.has_key?('RUNNING_IN_DOCKER')) and (ENV['RUNNING_IN_DOCKER'] == 'true')
                 run('install', 'sudo make -i install')
             else
-                run('install', 'sudo make install')
-                run('install', 'sudo modprobe pcan')
+                run('install', 'sudo make install && sudo modprobe pcan')
             end
 
         end
