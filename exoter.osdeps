@@ -1,3 +1,6 @@
+kmod:
+    debian, ubuntu: kmod
+
 popt:
     debian, ubuntu: libpopt-dev
 
