@@ -1,3 +1,6 @@
+popt:
+    debian, ubuntu: libpopt-dev
+
 python3.6-dev:
     debian, ubuntu: python3.6-dev
 
