@@ -7,22 +7,20 @@ import_package 'drivers/pcan_pcie_mini' do |pkg|
 
     def pkg.do_install
         in_dir (srcdir) do
-
-            # cannot reload udev rules and do modprobe in docker
+            # cannot reload udev rules or do modprobe in docker
             if (ENV.has_key?('RUNNING_IN_DOCKER')) and (ENV['RUNNING_IN_DOCKER'] == 'true')
                 run('install', 'sudo make -i install')
             else
                 run('install', 'sudo make install && sudo modprobe pcan')
             end
-
         end
     end
 
     pkg.post_install do
-        pkg.progress_start "building %s" do
+        pkg.progress_start "building %s", done_message: "built %s" do
             pkg.do_build
         end
-        pkg.progress_start "installing %s" do
+        pkg.progress_start "installing %s", done_message: "installed %s" do
             pkg.do_install
         end
     end
