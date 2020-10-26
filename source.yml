@@ -24,6 +24,10 @@ version_control:
     type: git
     url: https://github.com/esa-prl/drivers-orogen-platform_driver_pcan.git
     branch: master
+  - drivers/udp:
+    type: git
+    url: https://github.com/esa-prl/drivers-udp.git
+    branch: master
   - simulation/orogen/vortex:
     type: git
     url: https://github.com/esa-prl/simulation-orogen-vortex.git
