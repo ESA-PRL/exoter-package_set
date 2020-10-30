@@ -1,0 +1,3 @@
+cmake_package "exoter/exoter_dynamics"
+orogen_package "exoter/orogen/exoter_odometry"
+

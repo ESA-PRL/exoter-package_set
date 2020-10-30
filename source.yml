@@ -52,6 +52,18 @@ version_control:
     type: git
     url: https://github.com/esa-prl/control-orogen-ptu_control.git
     branch: master
+  - exoter/exoter_dynamics:
+    type: git
+    url: https://github.com/esa-prl/exoter-exoter_dynamics.git
+    branch: master
+  - exoter/orogen/exoter_odometry:
+    type: git
+    url: https://github.com/esa-prl/exoter-orogen-exoter_odometry.git
+    branch: master
+  - slam/localization:
+    type: git
+    url: https://github.com/esa-prl/slam-localization.git
+    branch: master
 
 overrides:
   - control/locomotion_control:
