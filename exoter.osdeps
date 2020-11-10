@@ -4,8 +4,8 @@ kmod:
 popt:
     debian, ubuntu: libpopt-dev
 
-python3.6-dev:
-    debian, ubuntu: python3.6-dev
+python3.8-dev:
+    debian, ubuntu: python3.8-dev
 
 python3-numpy:
     debian, ubuntu: python3-numpy
