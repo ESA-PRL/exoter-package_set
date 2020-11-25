@@ -64,6 +64,10 @@ version_control:
     type: git
     url: https://github.com/esa-prl/slam-localization.git
     branch: master
+  - exoter/orogen/localization_frontend:
+    type: git
+    url: https://github.com/esa-prl/exoter-orogen-localization_frontend.git
+    branch: master
 
 overrides:
   - control/locomotion_control:
