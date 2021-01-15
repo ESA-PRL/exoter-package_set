@@ -35,11 +35,11 @@ version_control:
   - planning/motion_planning:
     type: git
     url: https://github.com/esa-prl/planning-motion_planning.git
-    branch: focal
+    branch: master
   - planning/orogen/motion_planning:
     type: git
     url: https://github.com/esa-prl/planning-orogen-motion_planning.git
-    branch: focal
+    branch: master
   - control/coupled_control:
     type: git
     url: https://github.com/esa-prl/control-coupled_control.git
