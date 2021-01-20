@@ -5,9 +5,7 @@ popt:
     debian, ubuntu: libpopt-dev
 
 python3-dev:
-    debian,ubuntu:
-        '18.04': python3.6-dev
-        '20.04': python3.8-dev
+    debian,ubuntu: python3-dev
 
 python3-numpy:
     debian, ubuntu: python3-numpy
