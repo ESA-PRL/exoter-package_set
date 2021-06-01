@@ -32,6 +32,10 @@ version_control:
     type: git
     url: https://github.com/esa-prl/simulation-orogen-vortex.git
     branch: master
+  - simulation/orogen/unreal:
+    type: git
+    url: https://github.com/esa-prl/simulation-orogen-unreal.git
+    branch: master
   - planning/motion_planning:
     type: git
     url: https://github.com/esa-prl/planning-motion_planning.git
@@ -40,6 +44,7 @@ version_control:
     type: git
     url: https://github.com/esa-prl/planning-orogen-motion_planning.git
     branch: master
+    branch: master
   - control/coupled_control:
     type: git
     url: https://github.com/esa-prl/control-coupled_control.git
@@ -47,6 +52,14 @@ version_control:
   - control/orogen/coupled_control:
     type: git
     url: https://github.com/esa-prl/control-orogen-coupled_control.git
+    branch: master
+  - control/mission_control:
+    type: git
+    url: https://github.com/esa-prl/control-mission_control.git
+    branch: master
+  - control/orogen/mission_control:
+    type: git
+    url: https://github.com/esa-prl/control-orogen-mission_control.git
     branch: master
   - control/orogen/ptu_control:
     type: git
