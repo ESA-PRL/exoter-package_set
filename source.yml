@@ -44,7 +44,6 @@ version_control:
     type: git
     url: https://github.com/esa-prl/planning-orogen-motion_planning.git
     branch: master
-    branch: master
   - control/coupled_control:
     type: git
     url: https://github.com/esa-prl/control-coupled_control.git
